@@ -65,6 +65,7 @@ export default function Signup() {
                 disabled:opacity-80'>
                     {loading ? 'loading...' : 'Sign Up'}
                 </button>
+                <OAuth />
             </form>
             <div className='flex gap-2 mt-5'>
                 <p>Have an Account?</p>
