@@ -40,7 +40,7 @@ export default function Signin() {
 
             navigate('/');
         } catch (error) {
-            dispatch(signInFailure());
+            dispatch(signInFailure(error.message));
 
         }
 
